@@ -1384,7 +1384,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffff40;
+  background: #1c73c8;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2778,4 +2778,37 @@ header.header {
   grid-column: 1/-1;
   margin: 4px 0 12px 10px;
   padding-left: 12px;
+}
+.post-body .mahjong-hand {
+  align-items: center;
+  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 2px 0;
+  row-gap: 0.25em;
+  vertical-align: middle;
+}
+.post-body .mahjong-group {
+  align-items: center;
+  display: inline-flex;
+  flex-shrink: 0;
+  gap: 0.08em;
+}
+.post-body img.mahjong-tile {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  display: block;
+  flex-shrink: 0;
+  height: 2em;
+  margin: 0;
+  max-width: none;
+  padding: 0;
+  width: 1.5em;
+}
+.post-body img.mahjong-spacer {
+  width: 0.65em;
 }
